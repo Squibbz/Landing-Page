@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap);
+
+:root {
+  --hero: #0F8CFF;
+  --dark-bg: #13141B;
+  --light-bg: #292A3C;
+  --reg-font: 16px/30px 'Poppins';
+  --bold-font: bold 48px/72px 'Poppins';
+}
+
+.container-fluid {
+  padding: 0 !important;
+  height: 100% !important;
+}
+
+.light-panel {
+  position: relative;
+  background: var(--light-bg) !important;
+}
+
+
+
+/* Navbar Styling */
+.logo-placeholder {
+  font: var(--reg-font);
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.navbar {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  white-space: nowrap;
+}
+
+.navbar-btn {
+  background: transparent !important;
+  border: none !important;
+  font: var(--reg-font);
+  padding: 12px 20px !important;
+}
+
+/* Hero Button Styling */
+.hero-btn {
+  font: var(--reg-font);
+  background: var(--hero) !important;
+  padding: 12px 20px !important;
+}
+
+/* Welcome Page Styling */
+.welc-page {
+  height: 100vh !important;
+  padding: 30px 0;
+}
+
+.welc-text-stack {
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin: 100px auto;
+  width: 30% !important;
+}
+
+.font-reg {
+  font: var(--reg-font);
+}
+
+.font-bold {
+  font: var(--bold-font);
+}
+
+.welc-btn {
+  margin: 20px auto;
+}
+
+/* Image Styling */
+.laptop-img {
+  position: relative;
+  display: block;
+  height: 50vh;
+  width: auto;
+  margin: -25vh auto;
+}
+
+.stock-img {
+  width: 100%;
+}
+
+/* Description Panel Styling */
+.desc-panel {
+  width: 80%;
+  margin: 40vh 0 100px 0;
+  padding: 0px !important;
+}
+
+.desc-panel-text {
+  position: relative;
+  color: white;
+  width: 50%;
+  height: fit-content;
+  align-content: flex-start;
+}
+
+.desc-btn {
+  margin-top: 30px;
+  width: fit-content;
+}
+
+/* Stats Panel Styling */
+.stats-panel {
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  padding: 45px;
+  margin: 100px auto !important;
+}
